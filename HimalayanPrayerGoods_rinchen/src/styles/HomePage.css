@@ -1,0 +1,9 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(125, 35, 35);
+  padding: 10px;
+  border-radius: 20px;
+  color: rgb(172, 241, 241);
+  list-style: none;
+}
