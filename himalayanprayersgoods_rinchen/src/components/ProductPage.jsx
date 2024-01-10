@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart } from "../redux/actions/productActions";
+import "../styles/ProductPage.css";
 
 const ProductPage = () => {
   const products = useSelector((state) => state.products.products);
@@ -16,7 +17,7 @@ const ProductPage = () => {
     const fetchImages = async () => {
       const imagePromises = products.map(async (product) => {
         const module = await product.imageSrc;
-        return module.default; // Access the actual image path
+        return module.default;
       });
       const resolvedImages = await Promise.all(imagePromises);
       setProductImages(resolvedImages);
@@ -27,7 +28,9 @@ const ProductPage = () => {
 
   return (
     <div>
-      <h1>OUR PRODUCTS</h1>
+      <h1 className="mypro">
+        <span>OUR PRODUCTS</span>
+      </h1>
       <ul className="product-list">
         {products.map((product, index) => (
           <li key={product.id} className="product-item">
