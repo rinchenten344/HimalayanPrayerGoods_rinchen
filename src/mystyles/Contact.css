@@ -1,0 +1,62 @@
+/* Contact.css */
+
+.contactcontainer {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(248, 248, 248, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contactcontainer h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.contactcontainer p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #bc9507;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #bc3c05;
+}
+
+.contact-information {
+  margin-top: 30px;
+}
+
+.contact-information h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.contact-information p {
+  font-size: 1rem;
+  margin: 0;
+}

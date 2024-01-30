@@ -1,0 +1,94 @@
+/* Add your CSS styles here */
+.about-container {
+  background-color: rgba(248, 248, 248, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+.header-section {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header-section span {
+  font-size: 18px;
+  color: #666;
+}
+
+.introduction-section {
+  margin-top: 30px;
+}
+
+.introduction-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.our-story-section {
+  margin-top: 40px;
+}
+
+.our-story-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.our-story-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.unique-selling-points {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.usp-item {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.usp-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.usp-item p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.mission-statement {
+  margin-top: 40px;
+}
+
+.mission-statement h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mission-statement p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact-us-section {
+  margin-top: 40px;
+}
+
+.contact-us-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-us-section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-section {
+  margin-top: 40px;
+  /* Add Footer styles here */
+}

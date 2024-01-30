@@ -1,0 +1,77 @@
+/* Add your CSS styles here */
+.wave-container {
+  background-color: rgba(248, 248, 248, 0.7);
+  padding: 20px;
+}
+
+.wave-text {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-highlights {
+  margin-top: 30px;
+}
+
+.fpp {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-us {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 28px;
+}
+
+.learn-more {
+  background-color: #dd9d06;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.testimonials {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+}
+
+.testimonial-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial-item {
+  background-color: rgba(248, 248, 248, 0.4);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  max-width: 350px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-author {
+  font-style: italic;
+  font-size: 16px;
+}
